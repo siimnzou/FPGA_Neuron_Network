@@ -1,0 +1,20 @@
+`define pretrained 
+`define LAYER_NUM 5
+`define DATA_WIDTH 16
+`define LAYER1_NEURON_NUM 30
+`define LAYER1_WEIGHT_NUM 784
+`define LAYER1_ACT_TYPE "relu"
+`define LAYER2_NEURON_NUM 30
+`define LAYER2_WEIGHT_NUM 30
+`define LAYER2_ACT_TYPE "relu"
+`define LAYER3_NEURON_NUM 10
+`define LAYER3_WEIGHT_NUM 30
+`define LAYER3_ACT_TYPE "relu"
+`define LAYER4_NEURON_NUM 10
+`define LAYER4_WEIGHT_NUM 10
+`define LAYER4_ACT_TYPE "relu"
+`define LAYER5_NEURON_NUM 10
+`define LAYER5_WEIGHT_NUM 10
+`define LAYER5_ACT_TYPE "hardmax"
+`define SIGMOID_SIZE 5
+`define WEIGHT_INT_WIDTH 4

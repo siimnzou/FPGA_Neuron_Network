@@ -1,7 +1,7 @@
 module relu
 #(
     parameter       DATA_WIDTH       = 16 ,
-                    WEIGHT_INT_WIDTH = 4 
+                    WEIGHT_INT_WIDTH = 4  
 )
 (
     input                               clk       ,

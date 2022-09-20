@@ -7,7 +7,7 @@ module neuron
                 WEIGHT_NUM   = 784     ,    //权重数目
                 DATA_WIDTH   = 16      ,    //数据宽度
                 SIGMOID_SIZE = 5       ,    //SIGMOID激活函数大小
-                WEIGHT_INT_WIDTH = 1   ,    //权重整数位数
+                WEIGHT_INT_WIDTH = 4   ,    //权重整数位数
                 ACT_TYPE     = "RELU"  ,    //激活类型
                 BIAS_FILE    = ""      ,    //偏置大小文件目录
                 WEIGHT_FILE  = ""           //权重大小文件目录
@@ -117,7 +117,7 @@ end
 
 // rd_addr 和 rd_en的赋值
 always @(posedge clk ) begin
-    if (~rst_n)
+    if (~rst_n || output_valid)
         rd_addr <= 0;
     else if (input_valid)
         rd_addr <= rd_addr + 1'b1;
