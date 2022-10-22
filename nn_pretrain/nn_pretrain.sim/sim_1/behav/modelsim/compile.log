@@ -1,0 +1,34 @@
+# do {tb_mnist_compile.do}
+# Model Technology ModelSim SE-64 vmap 10.6d Lib Mapping Utility 2018.02 Feb 24 2018
+# vmap xil_defaultlib modelsim_lib/msim/xil_defaultlib 
+# Modifying D:\xilinx_FPGA_prj\modelsim_lib\modelsim.ini
+# Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 16:09:11 on Oct 18,2022
+# vlog -incr -mfcu -work xil_defaultlib ../../../../rtl/layer1.v ../../../../rtl/layer2.v ../../../../rtl/layer3.v ../../../../rtl/layer4.v ../../../../rtl/maxfinder.v ../../../../rtl/mnist.v ../../../../rtl/neuron.v ../../../../rtl/relu.v ../../../../rtl/sigmoid.v ../../../../rtl/weight_memory.v ../../../../rtl/sim/tb_mnist.v 
+# -- Compiling module layer1
+# -- Compiling module layer2
+# -- Compiling module layer3
+# -- Compiling module layer4
+# -- Compiling module maxfinder
+# -- Compiling module mnist
+# -- Compiling module neuron
+# -- Compiling module relu
+# -- Compiling module sigmoid
+# -- Compiling module weight_memory
+# ** Warning: ** while parsing file included at ../../../../rtl/sim/tb_mnist.v(2)
+# ** at ..\..\..\..\rtl\sim\include.v(19): (vlog-2263) Redefinition of macro: 'SIGMOID_SIZE' (previously defined near ..\..\..\..\rtl\include.v(19), old value '10', new value '5') .
+# -- Compiling module tb_mnist
+# 
+# Top level modules:
+# 	tb_mnist
+# End time: 16:09:11 on Oct 18,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 16:09:11 on Oct 18,2022
+# vlog -work xil_defaultlib glbl.v 
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# End time: 16:09:11 on Oct 18,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

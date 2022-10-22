@@ -1,0 +1,272 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/xilinx_FPGA_prj/my_fpga_prj/nn_pretrain/nn_pretrain.sim/sim_1/behav/modelsim
+T_opt
+!s110 1666080556
+VodE:cJ;?^RiYJ9?:=i01Y2
+04 8 4 work tb_mnist fast 0
+04 4 4 work glbl fast 0
+=1-047c16137fb1-634e5f2c-26e-e748
+o-quiet -auto_acc_if_foreign -work xil_defaultlib -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.6d;65
+vglbl
+Z2 !s110 1666080551
+!i10b 1
+!s100 aGX4R92RO3^bD43HL2j:J2
+Ii@2]DfVnUU[WE=M5a<e[a3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1649976174
+8glbl.v
+Fglbl.v
+L0 6
+Z4 OL;L;10.6d;65
+r1
+!s85 0
+31
+Z5 !s108 1666080551.000000
+!s107 glbl.v|
+!s90 -work|xil_defaultlib|glbl.v|
+!i113 0
+o-work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vlayer1
+R2
+!i10b 1
+!s100 ?[Ql[bnPn[hW51AcML8AG1
+IY??EA:IWgFK6oGmJ;KG3>2
+R3
+R0
+w1666079052
+8../../../../rtl/layer1.v
+F../../../../rtl/layer1.v
+L0 3
+R4
+r1
+!s85 0
+31
+R5
+Z6 !s107 ..\..\..\..\rtl\sim\include.v|..\..\..\..\rtl\include.v|../../../../rtl/sim/tb_mnist.v|../../../../rtl/weight_memory.v|../../../../rtl/sigmoid.v|../../../../rtl/relu.v|../../../../rtl/neuron.v|../../../../rtl/mnist.v|../../../../rtl/maxfinder.v|../../../../rtl/layer4.v|../../../../rtl/layer3.v|../../../../rtl/layer2.v|../../../../rtl/layer1.v|
+Z7 !s90 -incr|-mfcu|-work|xil_defaultlib|../../../../rtl/layer1.v|../../../../rtl/layer2.v|../../../../rtl/layer3.v|../../../../rtl/layer4.v|../../../../rtl/maxfinder.v|../../../../rtl/mnist.v|../../../../rtl/neuron.v|../../../../rtl/relu.v|../../../../rtl/sigmoid.v|../../../../rtl/weight_memory.v|../../../../rtl/sim/tb_mnist.v|
+!i113 0
+Z8 o-mfcu -work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vlayer2
+R2
+!i10b 1
+!s100 Q^W;=m[3I2dkcU@L0ROBn0
+IC?>:SSK:61e^m@mZohhhQ1
+R3
+R0
+w1666080328
+8../../../../rtl/layer2.v
+F../../../../rtl/layer2.v
+L0 2
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 0
+R8
+R1
+vlayer3
+R2
+!i10b 1
+!s100 d7Re;Sh<X5lIcZm<Qe4lh3
+I]jPzQ<4=eW>TW6=6n9oK?3
+R3
+R0
+w1666080279
+8../../../../rtl/layer3.v
+F../../../../rtl/layer3.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 0
+R8
+R1
+vlayer4
+R2
+!i10b 1
+!s100 [MJ87`>6hPVXRCG9BS@hL1
+INITo@TZzYDSi>4:f1:RVO3
+R3
+R0
+w1666079117
+8../../../../rtl/layer4.v
+F../../../../rtl/layer4.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 0
+R8
+R1
+vmaxfinder
+R2
+!i10b 1
+!s100 IjEm`:5SnBHDTz7=MTaWf2
+IR0LEEn=^IFU89bZZT88;C2
+R3
+R0
+w1663658557
+8../../../../rtl/maxfinder.v
+F../../../../rtl/maxfinder.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 0
+R8
+R1
+vmnist
+R2
+!i10b 1
+!s100 :d]<==AaMoB8V?505C7^U3
+IcdPBlKnYI<agOPYFfQ66k3
+R3
+R0
+w1666080277
+8../../../../rtl/mnist.v
+F../../../../rtl/mnist.v
+L0 5
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 0
+R8
+R1
+vneuron
+R2
+!i10b 1
+!s100 =??9PlYcaLE@I?ME2C5T`3
+I=`E9P6bakVNT;kd>50Mo70
+R3
+R0
+w1666080206
+8../../../../rtl/neuron.v
+F../../../../rtl/neuron.v
+L0 3
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 0
+R8
+R1
+vrelu
+R2
+!i10b 1
+!s100 52[I2HfCJHOTGVDI^9FO32
+IF[G?;MkREl8=CLSacl89e2
+R3
+R0
+w1663672905
+8../../../../rtl/relu.v
+F../../../../rtl/relu.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 0
+R8
+R1
+vsigmoid
+R2
+!i10b 1
+!s100 EJX?3D[;kIQ;PWO05C3fG0
+I0@DMi?DzG9[QE:mia?_FH3
+R3
+R0
+w1663469810
+8../../../../rtl/sigmoid.v
+F../../../../rtl/sigmoid.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 0
+R8
+R1
+vtb_mnist
+R2
+!i10b 1
+!s100 ZF8hZNmRNzSAPRU>EXg402
+I;feNZ?oc]K8<K1?kVcnB>0
+R3
+R0
+w1663673661
+8../../../../rtl/sim/tb_mnist.v
+F../../../../rtl/sim/tb_mnist.v
+L0 3
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 0
+R8
+R1
+vweight_memory
+R2
+!i10b 1
+!s100 G@hSn8_4]=k`mz^;Kmh>31
+I`<;a5b[V^g@H@@c;HS0;80
+R3
+R0
+w1666078848
+8../../../../rtl/weight_memory.v
+F../../../../rtl/weight_memory.v
+L0 3
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 0
+R8
+R1

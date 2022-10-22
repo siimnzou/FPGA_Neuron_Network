@@ -1,0 +1,18 @@
+0.7
+2020.2
+Apr 18 2022
+16:05:34
+D:/xilinx_FPGA_prj/my_fpga_prj/nn_pretrain/nn_pretrain.sim/sim_1/behav/xsim/glbl.v,1649976174,verilog,,,,glbl,,,,,,,,
+D:/xilinx_FPGA_prj/my_fpga_prj/nn_pretrain/rtl/include.v,1663675463,verilog,,,,,,,,,,,,
+D:/xilinx_FPGA_prj/my_fpga_prj/nn_pretrain/rtl/layer1.v,1666079052,verilog,,D:/xilinx_FPGA_prj/my_fpga_prj/nn_pretrain/rtl/layer2.v,D:/xilinx_FPGA_prj/my_fpga_prj/nn_pretrain/rtl/include.v,layer1,,,,,,,,
+D:/xilinx_FPGA_prj/my_fpga_prj/nn_pretrain/rtl/layer2.v,1666080328,verilog,,D:/xilinx_FPGA_prj/my_fpga_prj/nn_pretrain/rtl/layer3.v,D:/xilinx_FPGA_prj/my_fpga_prj/nn_pretrain/rtl/include.v,layer2,,,,,,,,
+D:/xilinx_FPGA_prj/my_fpga_prj/nn_pretrain/rtl/layer3.v,1666080279,verilog,,D:/xilinx_FPGA_prj/my_fpga_prj/nn_pretrain/rtl/layer4.v,,layer3,,,,,,,,
+D:/xilinx_FPGA_prj/my_fpga_prj/nn_pretrain/rtl/layer4.v,1666079117,verilog,,D:/xilinx_FPGA_prj/my_fpga_prj/nn_pretrain/rtl/maxfinder.v,,layer4,,,,,,,,
+D:/xilinx_FPGA_prj/my_fpga_prj/nn_pretrain/rtl/maxfinder.v,1663658557,verilog,,D:/xilinx_FPGA_prj/my_fpga_prj/nn_pretrain/rtl/mnist.v,,maxfinder,,,,,,,,
+D:/xilinx_FPGA_prj/my_fpga_prj/nn_pretrain/rtl/mnist.v,1666080277,verilog,,D:/xilinx_FPGA_prj/my_fpga_prj/nn_pretrain/rtl/neuron.v,D:/xilinx_FPGA_prj/my_fpga_prj/nn_pretrain/rtl/include.v,mnist,,,,,,,,
+D:/xilinx_FPGA_prj/my_fpga_prj/nn_pretrain/rtl/neuron.v,1666080206,verilog,,D:/xilinx_FPGA_prj/my_fpga_prj/nn_pretrain/rtl/relu.v,D:/xilinx_FPGA_prj/my_fpga_prj/nn_pretrain/rtl/include.v,neuron,,,,,,,,
+D:/xilinx_FPGA_prj/my_fpga_prj/nn_pretrain/rtl/relu.v,1663672905,verilog,,D:/xilinx_FPGA_prj/my_fpga_prj/nn_pretrain/rtl/sigmoid.v,,relu,,,,,,,,
+D:/xilinx_FPGA_prj/my_fpga_prj/nn_pretrain/rtl/sigmoid.v,1663469810,verilog,,D:/xilinx_FPGA_prj/my_fpga_prj/nn_pretrain/rtl/weight_memory.v,,sigmoid,,,,,,,,
+D:/xilinx_FPGA_prj/my_fpga_prj/nn_pretrain/rtl/sim/include.v,1663669971,verilog,,,,,,,,,,,,
+D:/xilinx_FPGA_prj/my_fpga_prj/nn_pretrain/rtl/sim/tb_mnist.v,1663673661,verilog,,,D:/xilinx_FPGA_prj/my_fpga_prj/nn_pretrain/rtl/sim/include.v,tb_mnist,,,,,,,,
+D:/xilinx_FPGA_prj/my_fpga_prj/nn_pretrain/rtl/weight_memory.v,1666078848,verilog,,D:/xilinx_FPGA_prj/my_fpga_prj/nn_pretrain/rtl/sim/tb_mnist.v,D:/xilinx_FPGA_prj/my_fpga_prj/nn_pretrain/rtl/include.v,weight_memory,,,,,,,,

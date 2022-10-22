@@ -1,0 +1,25 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/xilinx_FPGA_prj/my_fpga_prj/nn_pretrain/rtl/layer1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module layer1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/xilinx_FPGA_prj/my_fpga_prj/nn_pretrain/rtl/layer2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module layer2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/xilinx_FPGA_prj/my_fpga_prj/nn_pretrain/rtl/layer3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module layer3
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/xilinx_FPGA_prj/my_fpga_prj/nn_pretrain/rtl/layer4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module layer4
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/xilinx_FPGA_prj/my_fpga_prj/nn_pretrain/rtl/maxfinder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module maxfinder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/xilinx_FPGA_prj/my_fpga_prj/nn_pretrain/rtl/mnist.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mnist
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/xilinx_FPGA_prj/my_fpga_prj/nn_pretrain/rtl/neuron.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module neuron
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/xilinx_FPGA_prj/my_fpga_prj/nn_pretrain/rtl/relu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module relu
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/xilinx_FPGA_prj/my_fpga_prj/nn_pretrain/rtl/sigmoid.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sigmoid
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/xilinx_FPGA_prj/my_fpga_prj/nn_pretrain/rtl/weight_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module weight_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/xilinx_FPGA_prj/my_fpga_prj/nn_pretrain/rtl/sim/tb_mnist.v" into library xil_defaultlib
+WARNING: [VRFC 10-9157] macro 'SIGMOID_SIZE' is redefined [D:/xilinx_FPGA_prj/my_fpga_prj/nn_pretrain/rtl/sim/include.v:19]
+INFO: [VRFC 10-311] analyzing module tb_mnist
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/xilinx_FPGA_prj/my_fpga_prj/nn_pretrain/nn_pretrain.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

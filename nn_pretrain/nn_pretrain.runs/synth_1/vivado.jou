@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Tue Oct 18 16:06:00 2022
+# Process ID: 56876
+# Current directory: D:/xilinx_FPGA_prj/my_fpga_prj/nn_pretrain/nn_pretrain.runs/synth_1
+# Command line: vivado.exe -log mnist.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mnist.tcl
+# Log file: D:/xilinx_FPGA_prj/my_fpga_prj/nn_pretrain/nn_pretrain.runs/synth_1/mnist.vds
+# Journal file: D:/xilinx_FPGA_prj/my_fpga_prj/nn_pretrain/nn_pretrain.runs/synth_1\vivado.jou
+# Running On: Zou, OS: Windows, CPU Frequency: 3686 MHz, CPU Physical cores: 10, Host memory: 34212 MB
+#-----------------------------------------------------------
+source mnist.tcl -notrace

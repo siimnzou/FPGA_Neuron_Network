@@ -1,0 +1,19 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../rtl/layer1.v" \
+"../../../../rtl/layer2.v" \
+"../../../../rtl/layer3.v" \
+"../../../../rtl/layer4.v" \
+"../../../../rtl/maxfinder.v" \
+"../../../../rtl/mnist.v" \
+"../../../../rtl/neuron.v" \
+"../../../../rtl/relu.v" \
+"../../../../rtl/sigmoid.v" \
+"../../../../rtl/weight_memory.v" \
+"../../../../rtl/sim/tb_mnist.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
